@@ -1,0 +1,17 @@
+<html>
+<head>
+    <title>Display first 20 even numbers</title>
+</head>
+<body>
+<script type="text/javascript">
+    var i = 2;
+
+    document.write("First 20 even numbers <br/>");
+    while(i<=20)
+    {
+    document.write(i + "  ");
+    i = i + 2;
+    }
+</script>
+</body>
+</html>
